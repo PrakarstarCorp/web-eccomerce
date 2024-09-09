@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #e50914;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #e50914;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #e50914;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#photos .gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#photos .gallery img {
+    width: 45%;
+    margin-bottom: 20px;
+    border: 5px solid #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+#videos .video-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#videos .video-gallery iframe {
+    width: 48%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
